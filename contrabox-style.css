@@ -1,0 +1,472 @@
+.grid{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  height: 550px;
+  width: 750px;
+  background: lightyellow;
+  border: solid 1px black;
+}
+
+
+.bluePlayer{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 46px;
+  width: 96px;
+  border-style: solid;
+  border-width: 2px;
+  background:blue;
+}
+.redPlayer{
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  height: 46px;
+  width: 96px;
+  border-style: solid;
+  border-width: 2px;
+  background:red;
+}
+
+.blue1by2{
+  height: 46px;
+  width: 96px;
+  border-style: solid;
+  border-width: 2px;
+  background:lightblue;
+}
+
+#b1 {
+  position: absolute;
+  top: 500px;
+  left: 650px;
+}
+#b2 {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+#b3 {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+}
+#b4 {
+  position: absolute;
+  top: 500px;
+  left: 250px;
+}
+
+
+
+.red1by2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 46px;
+  width: 96px;
+  border-style: solid;
+  border-width: 2px;
+  background: pink;
+}
+
+#r1 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+#r2 {
+  position: absolute;
+  top: 400px;
+  left: 200px;
+}
+#r3 {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+}
+#r4 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+
+
+
+
+
+.blue2by1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 96px;
+  width: 46px;
+  border-style: solid;
+  border-width: 2px;
+  background:lightblue;
+}
+#b5 {
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+#b6 {
+  position: absolute;
+  top: 100px;
+  left: 700px;
+}
+#b7 {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+}
+#b8 {
+  position: absolute;
+  top: 350px;
+  left: 300px;
+}
+
+
+.red2by1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 96px;
+  width: 46px;
+  border-style: solid;
+  border-width: 2px;
+  background: pink;
+}
+
+#r5 {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+#r6 {
+  position: absolute;
+  top: 450px;
+  left: 500px;
+}
+#r7 {
+  position: absolute;
+  top: 250px;
+  left: 0px;
+}
+#r8 {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+
+
+
+
+
+.blue1by3{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 46px;
+  width: 146px;
+  border-style: solid;
+  border-width: 2px;
+  background:lightblue;
+}
+
+#b9 {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+}
+#b10 {
+  position: absolute;
+  top: 400px;
+  left: 0px;
+}
+
+
+
+.red1by3{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 46px;
+  width: 146px;
+  border-style: solid;
+  border-width: 2px;
+  background: pink;
+}
+#r9 {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+#r10 {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+
+
+.blue3by1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 146px;
+  width: 46px;
+  border-style: solid;
+  border-width: 2px;
+  background:lightblue;
+}
+#b11 {
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
+#b12 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+}
+
+.red3by1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 146px;
+  width: 46px;
+  border-style: solid;
+  border-width: 2px;
+  background: pink;
+}
+#r11 {
+  position: absolute;
+  top: 300px;
+  left: 700px;
+}
+#r12 {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+}
+
+
+.blue2by2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 96px;
+  width: 96px;
+  border-style: solid;
+  border-width: 2px;
+  background: lightblue;
+}
+#b13 {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+#b14 {
+  position: absolute;
+  top: 350px;
+  left: 550px;
+}
+
+
+.red2by2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 96px;
+  width: 96px;
+  border-style: solid;
+  border-width: 2px;
+  background: pink;
+}
+#r13 {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+#r14 {
+  position: absolute;
+  top: 0px;
+  left: 650px;
+}
+
+
+.topBorder
+{
+  height: 10px;
+  width: 752px;
+  
+  background-color: #73481d;
+  
+  position: absolute;
+  top: -11px;
+  left: -1px;
+}
+
+.bottomBorder
+{
+  height: 10px;
+  width: 752px;
+  
+  background-color: #73481d;
+  
+  position: absolute;
+  top: 551px;
+  left: -1px;
+}
+
+.leftBorder
+{
+  height: 572px;
+  width: 10px;
+  
+  background-color: #73481d;
+  
+  position: absolute;
+  top: -11px;
+  left: -11px;
+}
+
+.rightBorder1
+{
+  height: 261px;
+  width: 10px;
+  
+  background-color: #73481d;
+  
+  position: absolute;
+  top: -11px;
+  right: -11px;
+}
+
+.rightBorder2
+{
+  height: 261px;
+  width: 10px;
+  
+  background-color: #73481d;
+  
+  position: absolute;
+  top: 300px;
+  right: -11px;
+}
+
+.scoreBox
+{
+  height: 50px;
+  width: 10px;
+  background-color: #b266b2; 
+  position: absolute;
+  top: 250px;
+  left: 751px;
+}
+
+.rules
+{
+  position: absolute;
+  width: 300px;
+  left: 860px;
+  top: 140px;
+}
+
+.turnCounter
+{
+  position: absolute;
+  width: 400px;
+  top: 50px;
+  left: 860px;
+}
+.title{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding-left:90px;
+  padding-top: 160px;
+  z-index: 100;
+  font-size: 200px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#turnBlue{
+  position: absolute;
+  width: 100px;
+  top: 46px;
+  left: 1100px;
+  display: block;
+}
+
+#turnRed{
+  position: absolute;
+  width: 100px;
+  top: 36px;
+  left: 1100px;
+  display: none;
+}
+
+#blueWon{
+  position: absolute;
+  top: -250px;
+  left: 100px;
+  display: none;
+}
+#redWon{
+  position: absolute;
+  top: -380px;
+  left: 100px;
+  display: none;
+}
+h1{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+
+h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  color: blue;
+}
+
+h4{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  color: red;
+}
+
+
+h5{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 200px;
+  color: blue;
+}
+
+h6{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 200px;
+  color: red;
+}
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+.fadeText{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 40px;
+  margin-top: -30px;
+  padding-left: 250px;
+}
